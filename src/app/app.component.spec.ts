@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'invioceUI'`, () => {
+  it(`should have as title 'buzzboardTask'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('invioceUI');
+    expect(app.title).toEqual('buzzboardTask');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('invioceUI app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('buzzboardTask app is running!');
   });
 });

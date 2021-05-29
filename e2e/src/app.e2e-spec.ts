@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('invioceUI app is running!');
+    expect(page.getTitleText()).toEqual('buzzboardTask app is running!');
   });
 
   afterEach(async () => {
